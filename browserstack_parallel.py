@@ -3,6 +3,8 @@ import time
 from threading import Thread
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
+from dotenv import load_dotenv
+load_dotenv()
 
 BROWSERSTACK_USERNAME = os.getenv("BROWSERSTACK_USERNAME")
 BROWSERSTACK_ACCESS_KEY = os.getenv("BROWSERSTACK_ACCESS_KEY")
