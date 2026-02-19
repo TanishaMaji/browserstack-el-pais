@@ -38,22 +38,22 @@ browserstack-el-pais/
 
 1. Clone the repository  
 inside bash
-git clone https://github.com/TanishaMaji/browserstack-el-pais.git
-cd browserstack-el-pais
+- git clone https://github.com/TanishaMaji/browserstack-el-pais.git
+- cd browserstack-el-pais
 
 2. Install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 3. Run the main script
-python main.py
+- python main.py
 
 ## How to Run on BrowserStack Parallelly (Cross-Browser Testing)
 
 1. BrowserStack credentials are required.
    
 2. Set BrowserStack credentials as environment variables:
-setx BROWSERSTACK_USERNAME "your_username"
-setx BROWSERSTACK_ACCESS_KEY "your_access_key"
+- setx BROWSERSTACK_USERNAME "your_username"
+- setx BROWSERSTACK_ACCESS_KEY "your_access_key"
    
 4. Run parallel tests:
-python browserstack_parallel.py 
+- python browserstack_parallel.py 
